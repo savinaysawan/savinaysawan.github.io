@@ -1,381 +1,485 @@
 <!DOCTYPE html>
-<!-- This is Portfolio of Sawan kumar
-Each section defined in proper way -->
+<!-- Portfolio: Sawan Kumar -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="lib/paper.bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet">  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-    <! Default Section !>
-<body>
-    <header id="top"><!-- by Default first one -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                
-                <div class="logo">
-                    <a class="brand-logo" href="#">SK</a>
-                </div>
-              </div>
-          
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#top">Home</a></li>
-                  <li><a href="#about">About Me</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#internship">Internship</a></li>
-                  <li><a href="#education">Education</a></li>
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#achievement">Achievement</a></li>
-                    
-                </ul>
-              </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-          </nav>
-    </header>
-    <div class="container-fluid">
-        <section class="row">
-            <div class="fill-screen" style="background-image: url(./images/laptop-1.jpg)">
-                <img class="title img-circle img-responsive " src="./images/sawan.jpg">
-                <div class="title first-name">Sawan <span class="last-name">Kumar</span></div>
-                <div class="visible-lg visible-md down-button down-icon" onclick="$('#about').animatescroll({scrollSpeed: 3000, padding:50});">
-                  <a href="#">
-                      <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
-                  </a>
-                </div>
-            </div>
-        </section>
-        
-        <!-- /.About Us Portion -->
-        <section class="row portfolio-section" id="about">
-            <article class="sec-header">
-                <h3><i class="fa fa-user"></i> <span>About Me</span></h3>
-                <hr>
-            </article>
-            <article class="col-md-6">
-                <p>To work in challenging environment demanding all my skills and efforts to explore, adapt myself to indifferent 
-fields, and realize my potential to contribute to the development of organization with impressive 
-performance. 
-.</p>
-            </article>
-            <article class="col-md-6 table-custom">
-              <dl class="dl-horizontal">
-                <dt><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Email</dt>
-                <dd>savinaysawan2200@gmail.com</dd>
-                <dt><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Address</dt>
-                <dd> <address> Rupawswaj , Bachhawara ,<br>  Begusarai,  Bihar <br> India , 851111 </address> </dd>
-                  <dt><i class="file-earmark-person" aria-hidden="true"></i>&nbsp;Resume </dt>
-                  <dd><a>https://drive.google.com/file/d/1DKBgVFHiiwT-K8PFJelKco4p2I5t-ZnA/view?usp=sharing</a></dd>
-                <dt><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;Mobile </dt>
-                <dd>+91 9934454611</dd>
-              </dl>
-              <div class="social">
-                <a href="https://www.linkedin.com/in/sawan-bhardwaj-63a1551b2"> <i class="fa fa-linkedin"></i> </a>
-                <a href="#"> <i class="fa fa-twitter"></i> </a>
-                <a href="#"> <i class="fa fa-github"></i> </a>
-                <a href="https://www.facebook.com/profile.php?id=100008149153492"> <i class="fa fa-facebook"></i> </a>
-              </div>
-            </article>
-        </section>
-           
-        <!-- /.Projects Parts  -->
-        
-            <section class="row" >
-            <div class="hidden-xs fill-screen fixed-attachment" style="background-image: url(./images/work-desk-2.jpg)"></div>
-          </section>
-                <section class="row portfolio-section" id="projects">
-            <article class="sec-header">
-                <h3><i class="fa fa-code"></i> <span>Projects</span></h3>
-                <hr>
-            </article>
-            <article class="row my-work">
-              <div class=" col-xs-8 col-md-offset-2 col-md-4 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4  box box-slim">
-                <h4>Web Based Admission Counselling System</h4>
-                <p class="small-text">Counselling is a process to have a two way communication with students and to find their personal attributes according to their choice with more accuracy. Students have to know about the current status of different courses(like number of vacant seats in different colleges and their respective fees). </p>
-              </div>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Portfolio — Sawan Kumar</title>
 
-              <div class=" col-xs-8 col-md-offset-2 col-md-4 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4 box box-slim">
-                <h4>Eternity Learning Portal</h4>
-                <p class="small-text">The main purpose of compatible online portal for the students is to study online by providing online syllabus and conducting test on the chapters of the particular course. This portal can be an ecosystem for managing all teaching, learning, fun activities and result status of each student.   </p>
-              </div>  
+	<!-- Styles -->
+	<link rel="stylesheet" href="lib/paper.bootstrap.min.css">
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!-- Header / Navigation -->
+	<header id="top">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<!-- Brand + mobile toggle -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#main-nav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="logo">
+						<a class="brand-logo" href="#top" aria-label="Go to top">SK</a>
+					</div>
+				</div>
+
+				<!-- Nav links -->
+				<div class="collapse navbar-collapse" id="main-nav">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#top">Home</a></li>
+						<li><a href="#about">About Me</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#education">Education</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#achievement">Achievement</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Main container -->
+	<div class="container-fluid">
+		<!-- Hero -->
+		<section class="row">
+			<div class="fill-screen" style="background-image: url('./images/laptop-1.jpg');">
+				<img class="title img-circle img-responsive" src="./images/sawan.jpg" alt="Sawan Kumar">
+				<div class="title first-name">Sawan <span class="last-name">Kumar</span></div>
+				<div class="visible-lg visible-md down-button down-icon"
+					 onclick="$('#about').animatescroll({scrollSpeed:3000,padding:50});" aria-hidden="true">
+					<a href="#about" aria-label="Scroll to about"><i class="fa fa-chevron-circle-down"></i></a>
+				</div>
+			</div>
+		</section>
+
+		<!-- About -->
+		<section id="about" class="row portfolio-section">
+			<article class="sec-header">
+				<h3><i class="fa fa-user"></i> <span>About Me</span></h3>
+				<hr>
+			</article>
+
+			<!-- Short summary -->
+			<article class="col-md-6">
+				<p>Seeking challenging roles to apply and grow technical skills while contributing to organizational goals.</p>
+			</article>
+
+			<!-- Contact & links -->
+			<article class="col-md-6 table-custom">
+				<dl class="dl-horizontal">
+					<dt><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Email</dt>
+					<dd>savinaysawan2200@gmail.com</dd>
+
+					<dt><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; Address</dt>
+					<dd>
+						<address>Rupawswaj, Bachhawara,<br>Begusarai, Bihar, India — 851111</address>
+					</dd>
+
+					<dt><i class="file-earmark-person" aria-hidden="true"></i>&nbsp; Resume</dt>
+					<dd>
+						<a href="resume.html" target="_blank" rel="noopener noreferrer"
+						   aria-label="Open resume page (view & download)">View / Download Resume</a>
+					</dd>
+
+					<dt><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp; Mobile</dt>
+					<dd>+91 9934454611</dd>
+				</dl>
+
+				<!-- Social: open in new tab -->
+				<div class="social">
+					<a href="https://www.linkedin.com/in/sawan-kumar-63a1551b2"
+					   target="_blank" rel="noopener noreferrer"
+					   aria-label="Open LinkedIn profile (opens in new tab)">
+						<i class="fa fa-linkedin"></i>
+					</a>
+					<a href="https://github.com/savinaysawan"
+					   target="_blank" rel="noopener noreferrer"
+					   aria-label="Open GitHub profile (opens in new tab)">
+						<i class="fa fa-github"></i>
+					</a>
+				</div>
+			</article>
+		</section>
+
+		<!-- /.Projects Parts  -->
+		
+			<section class="row" >
+			<div class="hidden-xs fill-screen fixed-attachment" style="background-image: url(./images/work-desk-2.jpg)"></div>
+		  </section>
+				<section class="row portfolio-section" id="projects">
+			<article class="sec-header">
+				<h3><i class="fa fa-code"></i> <span>Projects</span></h3>
+				<hr>
+			</article>
+			<article class="row my-work">
+			  <div class=" col-xs-8 col-md-offset-2 col-md-4 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4  box box-slim">
+				<h4>Web Based Admission Counselling System</h4>
+				<p class="small-text">Counselling is a process to have a two way communication with students and to find their personal attributes according to their choice with more accuracy. Students have to know about the current status of different courses(like number of vacant seats in different colleges and their respective fees). </p>
+			  </div>
+
+			  <div class=" col-xs-8 col-md-offset-2 col-md-4 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4 box box-slim">
+				<h4>Eternity Learning Portal</h4>
+				<p class="small-text">The main purpose of compatible online portal for the students is to study online by providing online syllabus and conducting test on the chapters of the particular course. This portal can be an ecosystem for managing all teaching, learning, fun activities and result status of each student.   </p>
+			  </div>  
 			  
 			   <div class=" col-xs-8 col-md-offset-2 col-md-4 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4 box box-slim">
-                <h4><i class="fa fa-calculator" aria-hidden="true"></i>Digital Calculator</h4>
-                <p class="small-text">Nowadays people want different functionality in calculator such as matrix operations, unit conversion, probability of anything and complex mathematical task. These are the special features of my calculator. </p>
-              </div>
-            </article>
-        </section>
-        
-        
-        <!-- Internship Parts-->
+				<h4><i class="fa fa-calculator" aria-hidden="true"></i>Digital Calculator</h4>
+				<p class="small-text">Nowadays people want different functionality in calculator such as matrix operations, unit conversion, probability of anything and complex mathematical task. These are the special features of my calculator. </p>
+			  </div>
+			</article>
+		</section>
 		
-		
-            <section class="row" >
-            <div class="hidden-xs fill-screen fixed-attachment" style="background-image: url(./images/internship.png)"></div>
-          </section>
-                <section class="row portfolio-section" id="internship">
-            <article class="sec-header">
-                <h3><i class="fa fa-code"></i> <span>Internship</span></h3>
-                <hr>
-            </article>
-            <article class="row my-work">
-              
-                <div class=" col-xs-8 col-md-offset-2 col-md-4 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4  box box-slim">
-                <h4>BigData Trainee</h4>
-                <p class="small-text"> I had completed my internship with Cognizant Technology Solutions(Cognizant)in 
-                     Big data Domain. In my training,I had studied Java, Python, MySQL, Unix, Hadoop, Spark and Basic 
-                      Communication skills. During internship my performance was very good and i cleared all assessments.</p>
-              </div>
-            </article>
-        </section>
-        
-        
-        <!-- /.Education Parts  -->
+			
+		<!-- /.Education Parts  -->
 
-        <section class="row">
-          <div class="hidden-xs fill-screen fixed-attachment" style="background-image: url(./images/work-1.jpg)"></div>
-        </section> 
-        <section class="row portfolio-section" id="education">
-            <article class="sec-header">
-                <h3><i class="fa fa-graduation-cap"></i> <span>Education</span> </h3>
-                <hr>
-            </article>
-            <article>
-              <div class="activity-elements">
-                
-              
-                <div class="card-container">
-                  <div class="card">
-                    <div class="front">
-                      <div>
-                        <h2><i class="fa fa-graduation-cap"></i></h2>
-                        <h4>Bachelor of Technology in  Computer Science</h4>
-                        <h6>Reva University, Bangalore, Karnataka, India
-                            <br><br>Click Me</br></br></h6>
-                          
-                      </div>
-                    </div>
-                    <div class="back">
-                        <div>
-                          <h2><i class="fa fa-graduation-cap"></i></h2>
-                          <h5>Reva University , Bangalore</h5>
-                            <h4>Year:2017-2021</h4>
-                          <h3>CGPA: 8.94</h3>
-                        </div>
-                      </div>
-                  </div>
-                     <div class="card">
-                        <div class="front">
-                        <div>
-                          <h2><i class="fa fa-graduation-cap"></i></h2>
-                          <h4>Intermediate of Science</h4>
-                          <h6>St.Xavier's College, Ranchi, Jharkhand , India
-                              <br><br>Click Me</br></br></h6>
-                        </div>
-                        </div>
-                        <div class="back">
-                          <div>
-                            <h2><i class="fa fa-graduation-cap"></i></h2>
-                            <h5>Jharkhand Academic Council , Ranchi </h5>
-                              <h4>Year:2014-2016</h4>
-                            <h3>71%</h3>
-                          </div>
-                          </div>
-                      </div>
-                  
-                    <div class="card">
-                        <div class="front">
-                        <div>
-                          <h2><i class="fa fa-graduation-cap"></i></h2>
-                          <h4>Matriculation</h4>
-                            <h6>St. Paul Sec. School, Samastipur, Bihar , India
-                            <br><br>Click Me</br></br></h6>
-                        </div>
-                        </div>
-                        <div class="back">
-                          <div>
-                            <h2><i class="fa fa-graduation-cap"></i></h2>
-                            <h5>C.B.S.E , Delhi </h5>
-                              <h4>Year:2014</h4>
-                            <h3>CGPA: 9.8</h3>
-                          </div>
-                          </div>
-                      </div>
-                </div>
-              </div>    
-            </article>
-        </section>
-
-        <section class="row">
-            <div class="hidden-xs fill-screen fixed-attachment" style="background-image: url(./images/work-desk-1.jpg)"></div>
-        </section>
-
-        <section class="text-banner portfolio-section" id="skills">
-          <article class="sec-header">
-            <h3><i class="fa fa-cogs"></i> <span>Skills</span></h3>
-            <hr>
-          </article>    
-<!Skill Section >
-          <article class="row" id="skills-progress">
-            <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4 ">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <span>JAVA</span>
-                  <span class="pull-right skill-level">Intermediate</span>
-                </div>
-            </div>
-             <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4 ">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <span>MYSQL</span>
-                  <span class="pull-right skill-level">Intermediate</span>
-                </div>
-            </div>
-              <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                  <span>SNOWFLAKE</span>
-                  <span class="pull-right skill-level">Beginner</span>
-                </div>
-              </div>
-
-            <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4 ">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                  <span>HADOOP ECOSYSTEM</span>
-                  <span class="pull-right skill-level">Beginner</span>
-                </div>
-            </div>
-              <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                  <span>C++</span>
-                  <span class="pull-right skill-level">Beginner</span>
-                </div>
-              </div>
-              
-              <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                  <span>PYTHON</span>
-                  <span class="pull-right skill-level">Beginner</span>
-                </div>
-              </div>
-              <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                  <span>POWERCENTER</span>
-                  <span class="pull-right skill-level">Beginner</span>
-                </div>
-              </div>
-            <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-md-offset-2 col-lg-offset-4 col-lg-4 col-lg-offset-4 ">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                  <span>AWS BASIC</span>
-                  <span class="pull-right skill-level">Beginner</span>
-                </div>
-             </div>
-              
-              
-          </article>  
-          <hr>
-          <article class="row skill-cards">
-            <div class="col-md-6 col-sm-6">
-              <div class="skill-tech">
-                <h4><i class="fa fa-code"></i>Language</h4>
-                <p>JAVA, C, C++, PYTHON</p>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="skill-tech">
-                <h4><i class="fa fa-globe"></i> Web Development</h4>
-                <p>HTML, CSS, JAVASCRIPT</p>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-                <div class="skill-tech">
-                  <h4><i class="fa fa-database"></i> Database</h4>
-                  <p>MYSQL, HIVE, SNOWFLAKE</p>
-                </div>
-              </div>
-               <div class="col-md-6 col-sm-6">
-                <div class="skill-tech">
-                  <h4><i class="fa fa-wifi"></i> Networking</h4>
-                  <p>Use of WireShark tools helped me to explore the networking concepts more practically.</p>
-                </div>
-              </div>
-          </article>  
-        </section>  
+		<section class="row">
+		  <div class="hidden-xs fill-screen fixed-attachment" style="background-image: url(./images/work-1.jpg)"></div>
+		</section> 
+		<section class="row portfolio-section" id="education">
+			<article class="sec-header">
+				<h3><i class="fa fa-graduation-cap"></i> <span>Education</span> </h3>
+				<hr>
+			</article>
+			<article>
+			  <div class="activity-elements">
+				
+			  
+				<div class="card-container">
+				  <div class="card">
+					<div class="front">
+					  <div>
+						<h2><i class="fa fa-graduation-cap"></i></h2>
+						<h4>Bachelor of Technology in  Computer Science</h4>
+						<h6>Reva University, Bangalore, Karnataka, India
+							<br><br>Click Me</br></br></h6>
+						  
+					  </div>
+					</div>
+					<div class="back">
+						<div>
+						  <h2><i class="fa fa-graduation-cap"></i></h2>
+						  <h5>Reva University , Bangalore</h5>
+							<h4>Year:2017-2021</h4>
+						  <h3>CGPA: 8.94</h3>
+						</div>
+					  </div>
+				  </div>
+					 <div class="card">
+						<div class="front">
+						<div>
+						  <h2><i class="fa fa-graduation-cap"></i></h2>
+						  <h4>Intermediate of Science</h4>
+						  <h6>St.Xavier's College, Ranchi, Jharkhand , India
+							  <br><br>Click Me</br></br></h6>
+						</div>
+						</div>
+						<div class="back">
+						  <div>
+							<h2><i class="fa fa-graduation-cap"></i></h2>
+							<h5>Jharkhand Academic Council , Ranchi </h5>
+							  <h4>Year:2014-2016</h4>
+							<h3>71%</h3>
+						  </div>
+						  </div>
+					  </div>
+				  
+					<div class="card">
+						<div class="front">
+						<div>
+						  <h2><i class="fa fa-graduation-cap"></i></h2>
+						  <h4>Matriculation</h4>
+							<h6>St. Paul Sec. School, Samastipur, Bihar , India
+							<br><br>Click Me</br></br></h6>
+						</div>
+						</div>
+						<div class="back">
+						  <div>
+							<h2><i class="fa fa-graduation-cap"></i></h2>
+							<h5>C.B.S.E , Delhi </h5>
+							  <h4>Year:2014</h4>
+							<h3>CGPA: 9.8</h3>
+						  </div>
+						  </div>
+					  </div>
+				</div>
+			  </div>    
+			</article>
+		</section>
 
 
+<!-- ================= Skill  ================= -->
 
+<section class="row">
+  <div class="hidden-xs fill-screen fixed-attachment"
+       style="background-image: url(./images/work-desk-1.jpg)"></div>
+</section>
 
+<section class="text-banner portfolio-section" id="skills">
 
-             <section class="row">
-          <div class="hidden-xs fill-screen fixed-attachment" style="background-image: url(./images/image-4.jpg)"></div>
-        </section>
-            <section class="row portfolio-section" id="achievement">
-            <article class="sec-header">
-                <h3><i class="fa fa-trophy"></i> <span>Achievement</span></h3>
-                <hr>
-            <article class="row skill-cards">
-            <div class="col-md-6 col-sm-6">
-              <div class="skill-tech">
-                <h4><i class="fa fa-laptop"></i> Courses</h4>
-                <p>JAVA, SNOWFLAKE, MYSQL, HIVE</p>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="skill-tech">
-                <h4><i class="fa fa-globe"></i> Skill Development</h4>
-                <p>PYTHON, DATA ANALYTICS, WEB DEVELOPMENT </p>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-                <div class="skill-tech">
-                  <h4><i class="fa fa-flask"></i> Olympaid</h4>
-                  <p>Secured 109th State Rank in International Olympiad of Science Organized by Silver Zone Foundation in 2015.</p>
-                </div>
-              </div>
-              <div class="col-md-6 col-sm-6">
-                <div class="skill-tech">
-                  <h4><i class="fa fa-cogs"></i>Tools</h4>
-                  <p>POWERCENTER, WIRESHARK .</p>
-                </div>
-              </div>
-          </article>  
-                </article>
-            </section>
-            
-        
+  <article class="sec-header">
+    <h3><i class="fa fa-cogs"></i> <span>Skills</span></h3>
+    <hr>
+  </article>
+ 
+  <!-- Skill Progress Bars -->
+<article class="row" id="skills-progress">
 
-        <section class="row">
-            <div class="hidden-xs fill-screen fixed-attachment" style="background-image: url(./images/home-office-2.jpg)"></div>
-          </section>
+  <!-- DBT -->
+  <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-lg-offset-4 col-lg-4">
+    <div class="progress-bar"
+         role="progressbar"
+         aria-valuenow="65"
+         aria-valuemin="0"
+         aria-valuemax="100"
+         style="width: 65%;">
+      <span>DBT</span>
+      <span class="pull-right skill-level">Intermediate</span>
     </div>
-    <footer class="container-fluid">
-        <div>
-            <p class="small-text">Thank you for visiting </p>
-          <div class="social">
-            <a href="https://www.linkedin.com/in/sawan-bhardwaj-63a1551b2"> <i class="fa fa-linkedin"></i> </a>
-            <a href="#"> <i class="fa fa-twitter"></i> </a>
-            <a href="#"> <i class="fa fa-github"></i> </a>
-            <a href="https://www.facebook.com/profile.php?id=100008149153492"> <i class="fa fa-facebook"></i> </a>
-          </div>
-        </div>
-    </footer>
+  </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="//code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>    
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/animatescroll.min.js"></script>
-    <script src="js/app.js"></script>
+  <!-- Snowflake -->
+  <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-lg-offset-4 col-lg-4">
+    <div class="progress-bar"
+         role="progressbar"
+         aria-valuenow="65"
+         aria-valuemin="0"
+         aria-valuemax="100"
+         style="width: 65%;">
+      <span>SNOWFLAKE</span>
+      <span class="pull-right skill-level">Intermediate</span>
+    </div>
+  </div>
+
+  <!-- SQL -->
+  <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-lg-offset-4 col-lg-4">
+    <div class="progress-bar"
+         role="progressbar"
+         aria-valuenow="65"
+         aria-valuemin="0"
+         aria-valuemax="100"
+         style="width: 65%;">
+      <span>SQL</span>
+      <span class="pull-right skill-level">Intermediate</span>
+    </div>
+  </div>
+
+  <!-- Python -->
+  <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-lg-offset-4 col-lg-4">
+    <div class="progress-bar"
+         role="progressbar"
+         aria-valuenow="65"
+         aria-valuemin="0"
+         aria-valuemax="100"
+         style="width: 65%;">
+      <span>PYTHON</span>
+      <span class="pull-right skill-level">Intermediate</span>
+    </div>
+  </div>
+
+  <!-- AWS Cloud -->
+  <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-lg-offset-4 col-lg-4">
+    <div class="progress-bar"
+         role="progressbar"
+         aria-valuenow="40"
+         aria-valuemin="0"
+         aria-valuemax="100"
+         style="width: 40%;">
+      <span>AWS CLOUD</span>
+      <span class="pull-right skill-level">Beginner</span>
+    </div>
+  </div>
+
+  <!-- Azure Blob -->
+  <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-lg-offset-4 col-lg-4">
+    <div class="progress-bar"
+         role="progressbar"
+         aria-valuenow="40"
+         aria-valuemin="0"
+         aria-valuemax="100"
+         style="width: 40%;">
+      <span>AZURE BLOB</span>
+      <span class="pull-right skill-level">Beginner</span>
+    </div>
+  </div>
+
+  <!-- Snowflake Cortex AI -->
+  <div class="progress col-xs-8 col-md-offset-2 col-md-8 col-lg-offset-4 col-lg-4">
+    <div class="progress-bar"
+         role="progressbar"
+         aria-valuenow="40"
+         aria-valuemin="0"
+         aria-valuemax="100"
+         style="width: 40%;">
+      <span> CORTEX AI</span>
+      <span class="pull-right skill-level">Beginner</span>
+    </div>
+  </div>
+
+</article>
+
+
+
+
+<!-- ================= Achievements ================= -->
+
+<section class="row">
+  <div class="hidden-xs fill-screen fixed-attachment achievement-bg"
+       style="background-image: url('./images/image-4.jpg');">
+  </div>
+</section>
+
+<section class="row portfolio-section achievements-section" id="achievement">
+
+  <article class="sec-header">
+    <h3>
+      <i class="fa fa-trophy"></i>
+      <span>Achievements</span>
+    </h3>
+    <hr>
+  </article>
+
+  <article class="row achievement-cards">
+
+    <!-- 1. Data Engineering & Modernization -->
+    <div class="col-md-6 col-sm-6 achievement-column">
+      <div class="achievement-card">
+
+        <div class="achievement-icon">
+          <i class="fa fa-rocket"></i>
+        </div>
+
+        <div class="achievement-content">
+          <h4>Data Engineering &amp; Modernization</h4>
+
+          <p>
+            Modernized legacy on-premises workflows, including MS Access and
+            Oracle-based source systems, by migrating them to a scalable
+            DBT Cloud and Snowflake architecture. Designed business-rule-driven
+            ELT solutions and data models to support analytics, reporting,
+            and downstream data consumption.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- 2. Client & Management Recognition -->
+    <div class="col-md-6 col-sm-6 achievement-column">
+      <div class="achievement-card">
+
+        <div class="achievement-icon">
+          <i class="fa fa-star"></i>
+        </div>
+
+        <div class="achievement-content">
+          <h4>Client &amp; Management Recognition</h4>
+
+          <p>
+            Consistently received positive feedback, appreciation, and
+            recognition from clients and management for delivering
+            high-quality solutions, demonstrating strong ownership,
+            and successfully meeting project objectives.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- 3. Snowflake AI -->
+    <div class="col-md-6 col-sm-6 achievement-column">
+      <div class="achievement-card">
+
+        <div class="achievement-icon">
+          <i class="fa fa-magic"></i>
+        </div>
+
+        <div class="achievement-content">
+          <h4>Snowflake AI</h4>
+
+          <p>
+            Successfully explored and applied Snowflake Cortex AI capabilities
+            to develop AI-driven solutions within modern cloud data engineering
+            workflows, extending traditional data platforms with Generative AI
+            capabilities.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- 4. Academic Achievement -->
+    <div class="col-md-6 col-sm-6 achievement-column">
+      <div class="achievement-card">
+
+        <div class="achievement-icon">
+          <i class="fa fa-graduation-cap"></i>
+        </div>
+
+        <div class="achievement-content">
+          <h4>Academic Achievement</h4>
+
+          <p>
+            Secured <strong>109th State Rank</strong> in the International
+            Olympiad of Science, organized by SilverZone Foundation in 2015,
+            demonstrating strong academic performance and analytical ability.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </article>
+
+</section>
+
+
+  <section class="row">
+    <div class="hidden-xs fill-screen fixed-attachment" style="background-image: url(./images/home-office-2.jpg)"></div>
+  </section>
+
+	<!-- Footer -->
+	<footer class="container-fluid">
+		<div>
+			<p class="small-text">Thank you for visiting</p>
+			<div class="social">
+				<a href="https://www.linkedin.com/in/sawan-kumar-63a1551b2"
+				   target="_blank" rel="noopener noreferrer" aria-label="Open LinkedIn profile (opens in new tab)">
+					<i class="fa fa-linkedin"></i>
+				</a>
+				<a href="#" target="_blank" rel="noopener noreferrer" aria-label="Open Twitter profile (opens in new tab)">
+					<i class="fa fa-twitter"></i>
+				</a>
+				<a href="https://github.com/savinaysawan"
+				   target="_blank" rel="noopener noreferrer" aria-label="Open GitHub profile (opens in new tab)">
+					<i class="fa fa-github"></i>
+				</a>
+				<a href="https://www.facebook.com/profile.php?id=100008149153492"
+				   target="_blank" rel="noopener noreferrer" aria-label="Open Facebook profile (opens in new tab)">
+					<i class="fa fa-facebook"></i>
+				</a>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="//code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+	        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	        crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/animatescroll.min.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
