@@ -388,3 +388,48 @@ h3 > span:hover:before, .nav a:hover:before {
         line-height: 1.7;
     }
 }
+
+/* =========================================================
+   RESPONSIVE DESIGN FOR ABOUT SECTION 
+   ========================================================= */
+.profile-name {
+    position: absolute;
+    top: calc(20% + 205px);
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 3;
+
+    font-size: 48px;
+    font-weight: normal;
+    font-family: inherit;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.first-name,
+.last-name {
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+/* Different colors */
+.first-name {
+    color: #00d4ff;
+}
+
+.last-name {
+    color: #ffd700;
+}
+
+.portfolio-section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (max-width: 767px) {
+    .portfolio-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
